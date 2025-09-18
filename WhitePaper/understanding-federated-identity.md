@@ -16,11 +16,13 @@ IAM ensures that the right individuals and entities have the appropriate access 
 - **Single Sign-on (SSO):** 
 
 ## User Access Process
-1. User Authentication: The user verifies their identiy to gain access.
-2. Role Activation: The user activates necessary roles for their tasks. 
-3. Access Application / Services: The user accesses application services through authorization
+1. User Authentication: The user verifies their identity, typically via an Identity Provider (IdP), to initiate access. This step is crucial in federated systems where authentication is delegated across domains.
+2. Role Activation: Once authenticated, the user's roles and permissions are determined, often conveyed through protocol-specific tokens or assertions (e.g., claims in OIDC or attributes in SAML).
+3. Access Application / Services: Based on the authenticated identity and activated roles, the user is authorized to access protected applications or services, with access tokens (OAuth 2.0) or assertions (SAML) facilitating secure communication.
    
 ## Foundation Protocols Driving Federation
+
+Federated identity protocols like OAuth 2.0, OpenID Connect (OIDC), and SAML are designed to support and secure each step of the user access process, enabling trusted identity verification, role-based access control, and seamless service authorization across organizational boundaries.
 
 <img width="460" height="360" alt="image" src="https://github.com/user-attachments/assets/da5e7a57-3a8b-4fe8-9bdf-8e6189c77dc9" />
 
