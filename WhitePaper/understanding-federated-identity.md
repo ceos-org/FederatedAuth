@@ -5,7 +5,7 @@ This chapter covers the fundamental concepts and protocols that underpin federat
 ## Essential Terminology
 - **Authentication (AuthN):** The process of verifying a user's identity via a set of credentials such as username and password. It answers the question: _Who are you?_
 - **Authorization (AuthZ):** The process of determining what actions or resources an authenticated user is allowed to access. It answers the question: _What are you allowed to do?_
-- **Federation:** A collection of organizations that agree to interopreate under a certain rule set. It answers the question: _Who vouched for you?_
+- **Federation:** A collection of organizations that agree to interoperate under a certain rule set. It answers the question: _Who vouched for you?_
 - **Identity and Access Management (IAM):**
 - **IdP versus SP**: The Identity Provider (IdP) handles authentication and generates tokens providing the user's identity. The Service Provider (SP) handles authorization, validating the tokens from the IdP, and there enforces access control based on roles or permissions.
 - **Single Sign-on (SSO):** 
