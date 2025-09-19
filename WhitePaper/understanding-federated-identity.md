@@ -39,4 +39,11 @@ Federated identity protocols like OAuth 2.0, OpenID Connect (OIDC), and SAML are
 
 
 ---
-Used and useful references: [Protocols](https://auth0.com/docs/authenticate/protocols)
+Used and useful references: 
+
+[Foundation Protocols Driving Federation](https://auth0.com/docs/authenticate/protocols)
+
+[Data Space Support Centre - Data Sovereignty and Trust Pillar](https://dssc.eu/space/bv15e/766068339/Data+Sovereignty+and+Trust)
+
+[European Identity Wallet Reference architecture](https://digital-strategy.ec.europa.eu/en/library/european-digital-identity-wallet-architecture-and-reference-framework)
+
