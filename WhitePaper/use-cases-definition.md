@@ -5,6 +5,16 @@ This chapter defines the specific use cases for federated authentication and aut
 
 ## ESA/NASA MAAP 
 
+Objective: 
+
+- Federated IdPs: NASA users can login to ESA MAAP using their NASA EarthData Account (NASA IdP), while ESA users can login into the NASA MAAP with their ESA account (eo sign in / EOIAM) as shown in the images below.
+
+<img width="1000" height="650" alt="image" src="https://github.com/user-attachments/assets/4bc950b8-a91b-4d32-937c-907d230fa6c0" />
+
+<img width="1000" height="350" alt="image" src="https://github.com/user-attachments/assets/a7dd75ee-e8ba-4312-9cb7-398869fa9409" />
+
+
+
 ## NASA Use Case (WGISS-59) 
 
 ## DestinE 
