@@ -5,7 +5,8 @@ This chapter defines the specific use cases for federated authentication and aut
 
 ## ESA/NASA MAAP 
 
-Objective: 
+The ESA-NASA Multi-Mission Algorithm and Analysis Platform (MAAP) is a jointly developed and implemented cloud-based platform providing data and computing capabilities to support the BIOMASS, NISAR, and GEDI satellite missions. 
+
 
 - Federated IdPs: NASA users can login to ESA MAAP using their NASA EarthData Account (NASA IdP), while ESA users can login into the NASA MAAP with their ESA account (eo sign in / EOIAM) as shown in the images below.
 
