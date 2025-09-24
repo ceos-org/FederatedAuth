@@ -5,7 +5,7 @@ This chapter defines the specific use cases for federated authentication and aut
 
 ## ESA/NASA MAAP 
 
-The ESA-NASA Multi-Mission Algorithm and Analysis Platform (MAAP) is a jointly developed project consisting of two cloud-based collaborative platforms: ESA MAAP and NASA MAAP. Each of these provide data and computing capabilities to support the BIOMASS, NISAR, and GEDI satellite missions.  In terms of interoperabilty the jointly developed platforms (should?) enable bidrectional cross-platform functionalities (data access, processor deployment) through federated IdPs.
+The ESA-NASA Multi-Mission Algorithm and Analysis Platform (MAAP) is a jointly developed project consisting of two cloud-based collaborative platforms: ESA MAAP and NASA MAAP. Each of these combine data, algorithms, computing capabilities to support the BIOMASS, NISAR, and GEDI satellite missions.  In terms of interoperabilty the jointly developed platforms (should?) enable bidrectional cross-platform functionalities (data access, processor deployment) through federated IdPs.
 
 ESA NASA Interoperability Use cases: 
 1. Cross-Platform Data Retrieval and Analysis: ESA MAAP to NASA MAAP and NASA MAAP to ESA MAAP: The user is expected to make a Python API call to access both ESA and NASA datasets from both Notebook envrionments, without requiring an account within the "other MAAP". Both datasets should be loaded into the notebook for analysis without the need of any additional authentication or authorization as they are already logged into "their MAAP".
@@ -23,7 +23,9 @@ The preconditions for these cross-platform use cases is IDP Federation:
 
 <img width="1000" height="350" alt="image" src="https://github.com/user-attachments/assets/a7dd75ee-e8ba-4312-9cb7-398869fa9409" />
 
+[NASA MAAP](https://maap-project.org/)
 
+[ESA MAAP (BIOMASS)](https://portal.maap.eo.esa.int/biomass/)
 
 ## NASA Use Case (WGISS-59) 
 
