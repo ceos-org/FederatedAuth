@@ -3,20 +3,14 @@
 This chapter introduces the evolving landscape of digital and unified Earth Observation (EO) access, setting the foundation for understanding federated authentication and authorization in the context of EO data systems.
 
 
-## Seamless & Secure EO Access: An Overview
-- Earth Observation (EO) missions produce vast amounts of data, supporting a wide range of stakeholders, including scientists, developers, and decision-makers worldwide.
-- Users come from diverse institutions — including research centers, government agencies, and commercial organizations — each requiring access to different datasets and services.
-- Managing this diversity of users and datasets requires a robust, unified access framework to ensure security, usability, and efficiency.
+## Where are we now? what should the future hold? 
+Earth Observation (EO) missions produce vast amounts of data, supporting a wide range of stakeholders—including scientists, developers, and decision-makers worldwide. These stakeholders come from diverse institutions such as research centers, government agencies, and commercial organizations, each requiring access to different datasets and services.
 
-## The Modern Dilemma: Why Unified EO Access is Critical 
-- Diverse missions, diverse users: Multiple EO missions generate different data collections, leading to complex authorization scenarios.
-- Fragmented access control: Currently, authorization is handled locally at the application level, often based on different attributes. 
-- Inconsistent user experience: Different datasets and services require different login flows, creating inefficiencies for users.
+EO data usage is often not centered around a specific mission, but rather around an application that benefits from sourcing any type of EO data that supports its purpose. The most user-centric approach would allow users to access as much data as possible from their home institution. In reality, however, the diversity of EO missions results in different data collections spread across platforms and agencies, leading to complex authorization scenarios and fragmented access control. Currently, authorization is handled locally by the data's host, often based on varying attributes. These differences can stem from political decisions—for example, European Commission (Copernicus Programme) versus ESA policies (EO Science missions), or GDPR versus U.S. data governance frameworks.
 
-## The Federated Solution: Authentication & Authorization 
+All of this contributes to a highly inconsistent user experience. Different datasets and services require different login flows, creating a landscape where scientists and stakeholders often spend as much time navigating and managing access as they do actually using the data. This time could be better invested in analysis and application if the data landscape were more streamlined.
+Federation offers a way forward: it facilitates collaboration and shifts the focus toward actual EO data usage by simplifying inter-organizational access. However, it also introduces challenges, particularly around legal and compliance issues.
 
-## Purpose & Audience
-Federation facilitates collaboration by simplifying interorganizational access to EO data but also brings challenges such as dealing with legal and compliance issues.
 
 ---
 
