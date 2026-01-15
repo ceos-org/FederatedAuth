@@ -34,6 +34,10 @@ Federated identity protocols like OAuth 2.0, OpenID Connect (OIDC), and SAML are
   - **OIDC**: OpenID Connect (OIDC) is an identity layer built on top of OAuth 2.0 to provie authentication. It allows useres to log in using a third-party identity provider.
 
 <img width="588" height="303" alt="image" src="https://github.com/user-attachments/assets/d042228a-c239-4af1-9602-40968d09e79a" />
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/8ff81ffc-ff8d-4356-a128-68b85b3a7c1a" />
+
+  - **OAuth/OIDC**: This shows a summary of the various Oauth/OIDC flows and their associated features
   
   - **SAML**: Security Assertion Markup Language (SAML) is an open-standard XML-based data format that allows secure sharing of authentication and authorization data between different organizations or systems. It allows a user to log in once (via their organization's identity provider) and then access various partner applications or enterprise services without needing to re-enter credentials. SAML is used by both the IdPs and SPs within federated identity management setups. 
 
