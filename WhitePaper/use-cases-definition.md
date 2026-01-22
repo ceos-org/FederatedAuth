@@ -40,6 +40,8 @@ DestinE has two federated solutions in place:
 [DestinE Platform Onboarding Policy and Process v2.6](https://platform.destine.eu/wp-content/uploads/2024/11/DEST-SRCO-PR-2300339-Onboarding-Policy-and-Process-v2.6.pdf)
 
 ## Bilateral ESA-DLR
+<mark>Note</mark> _[UR]: will be added shortly._
+
 
 ## SSI Decentralised
 
