@@ -1,14 +1,24 @@
 # Terms and Definitions
 
 ```{glossary}
+
+AARC
+    Authentication and Authorisation for Research and Collaboration
+
 DCS
     Data Centric Security
 
 DID
     Decentralized identifier
 
+eduGAIN
+    EDUcation Global Authentication INfrastructure
+
 EO
     Earth Observation
+
+IAM
+    Identity and Access Management
 
 IDP
     Identity Provider 
@@ -22,8 +32,14 @@ ISO
 OGC 
     Open Geospatial Consortium
 
+SLO
+    Single Log Out
+
 SSI
     Self-sovereign identity
+
+SSO
+    Single Sign On
 
 SP
     Service Provider 
