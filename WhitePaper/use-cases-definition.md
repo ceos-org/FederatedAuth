@@ -1,4 +1,4 @@
-<img width="1440" height="317" alt="image" src="https://github.com/user-attachments/assets/258fc2a4-4732-4a58-bb26-8918c423b8c7" /># Use Cases Definition
+# Use Cases Definition
 
 This chapter defines the specific use cases for federated authentication and authorization in Earth Observation systems.
 
@@ -42,7 +42,7 @@ DestinE has two federated solutions in place:
 ## Bilateral ESA-DLR
 
 ## SSI Decentralised
-
+<img width="1440" height="317" alt="image" src="https://github.com/user-attachments/assets/258fc2a4-4732-4a58-bb26-8918c423b8c7" />
 
 **S**elf-**S**overeign **I**dentity (SSI) is an approach to digital identity that gives individuals control over the information they use to prove who they are to websites, services, and applications across the web. 
 
