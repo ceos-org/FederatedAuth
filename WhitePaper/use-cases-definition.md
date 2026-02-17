@@ -1,4 +1,4 @@
-# Use Cases Definition
+<img width="1440" height="317" alt="image" src="https://github.com/user-attachments/assets/258fc2a4-4732-4a58-bb26-8918c423b8c7" /># Use Cases Definition
 
 This chapter defines the specific use cases for federated authentication and authorization in Earth Observation systems.
 
@@ -43,6 +43,51 @@ DestinE has two federated solutions in place:
 
 ## SSI Decentralised
 
+
+**S**elf-**S**overeign **I**dentity (SSI) is an approach to digital identity that gives individuals control over the information they use to prove who they are to websites, services, and applications across the web. 
+
+[Self-sovereign identity Wikipedia](https://en.wikipedia.org/wiki/Self-sovereign_identity)
+
+### COVID-19 vaccination in Japan
+
+Digital Agency in Japan released an application for [“Certificate of COVID-19 Vaccination”](https://www.digital.go.jp/en/policies/vaccinecert) in 2021.  
+It is an implementation by using VCs, and it took standards “SMART Health Card(SHC)”.  
+SHC is developed by “Vaccination Credential Initiative(VCI), and it is discussed by Microsoft, Amazon Web Service, Oracle and so on.  
+
+<img width="4402" height="1339" alt="COVID-19app" src="https://github.com/user-attachments/assets/a47fa2c7-6d08-4abe-8b94-66370b60e10c" />
+
+### Community service wallet
+
+**Toyonon Wallet** is an application for community service wallet inspired by the official mascot character of Toyono Town in Osaka, Japan, created to promote the town's community activities and local charm.
+
+Toyonon wallet stores
+- DID（Decentralized Identifier）
+- Verifiable Credentials（VC）
+- Digital coupon / voucher
+
+<img width="1024" height="403" alt="image" src="https://github.com/user-attachments/assets/9cdb4cf8-fd81-48e0-a0d1-edc79d6503d6" />
+
+Reference: [japanese](https://digitalplatformer.co.jp/220607002/)  
+Reference: [platform](https://digitalplatformer.co.jp/en/20250312_01/)
+
+
+### Japan’s Academic VC Pilots
+
+Japan is actively advancing the practical adoption of Verifiable Credentials (VC) and Decentralized Identifiers (DID) within higher education to modernize academic credentialing and identity verification. Two prominent initiatives demonstrate this trend:
+
+1. National Institute of Informatics (NII) – Academic VC Pilot  
+  The National Institute of Informatics (NII) leads a pioneering Academic VC Pilot project aimed at issuing and managing digital academic credentials in a secure, privacy-preserving manner.  
+  Overview: NII developed a digital student ID system leveraging VC and DID technology, enabling students to receive tamper-proof, cryptographically verifiable credentials representing their academic records and enrollment status.  
+  Technology: Using globally recognized standards (W3C Verifiable Credentials), the system allows credential holders to control and selectively disclose their information without relying on centralized authorities.  
+  Impact: This pilot validates the use of VC in authenticating academic qualifications and streamlines interactions with educational institutions and third parties (e.g., employers), enhancing trust and efficiency.  
+  Reference: [Center for Trust and Digital Identity – Academic VC Pilot](https://trustdigitalidcenter.jp/?page_id=294&lang=en)  
+
+2. Keio University – Verifiable Digital Student Credentials  
+  Keio University has conducted successful trials issuing verifiable digital student credentials to enhance academic identity management.  
+  Overview: Students receive digital certificates (such as enrollment verification and graduation diplomas) in the form of Verifiable Credentials issued via a secure, blockchain-backed platform.  
+  Benefits: These credentials are cryptographically signed by the university, enabling instant verification by employers or external organizations without intermediary contact, reducing administrative overhead.  
+  User Experience: Students can store and present their credentials on personal devices, maintaining privacy while facilitating seamless proof of academic status.  
+  Reference: [Microsoft Customer Story – Keio University](https://www.microsoft.com/en/customers/story/1349421307379340138-keio-university-higher-education-azure-active-directory)
 
 ## Use Case Summary Table
 
