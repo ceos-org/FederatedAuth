@@ -39,8 +39,35 @@ DestinE has two federated solutions in place:
 
 [DestinE Platform Onboarding Policy and Process v2.6](https://platform.destine.eu/wp-content/uploads/2024/11/DEST-SRCO-PR-2300339-Onboarding-Policy-and-Process-v2.6.pdf)
 
-## Bilateral ESA-DLR
+## Bilateral ESA-DLR Demonstrator
 <mark>Note</mark> _[UR]: will be added shortly._
+The bilateral ESA-DLR Demonstrator activity focuses on use cases regarding _Federated Discovery_ and _Federated Access_:
+- _Federated Discovery_ refers to ...
+- _Federated Access_ refers to ...
+
+The aim is ...
+
+The following use cases are considered:
+- ...
+- ...
+- ...
+
+
+## eduGAIN
+<mark>Note</mark> _[UR]: will be added shortly._
+### Overview
+...
+
+### AARC Blueprint Architecture
+...
+
+### References
+...
+[Reference 1](https://)
+[eduGAIN Hompage](https://edugain.org/)
+[AARC Blueprint Architecture](https://aarc-community.org/))
+[AARC Guidelines](https://aarc-project.eu/guidelines/)
+
 
 
 ## SSI Decentralised
@@ -99,4 +126,6 @@ Japan is actively advancing the practical adoption of Verifiable Credentials (VC
 |NASA Use CASE (WGISS-59)  |      |     |     |     |   |
 |   DestinE  |   |    |    |  Federated IdP, Federated services.  |   |
 |   Bilateral ESA-DLR  |   |    |    |    |   |
+|   eduGAIN  | applied AARC Blueprint Architecture | _what to insert here?_ | _what to insert here?_ | International Meta-Federation of national Identity Federations |   |
 |   SSI Decentralised  |   |    |    |    |   |
+
