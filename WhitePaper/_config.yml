@@ -24,6 +24,9 @@ execute:
 sphinx:
   extra_extensions:
     - sphinxcontrib.mermaid
+  config:
+    html_css_files:
+      - custom.css
     
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
