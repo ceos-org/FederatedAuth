@@ -42,6 +42,43 @@ DestinE has two federated solutions in place:
 ## Bilateral ESA-DLR
 <mark>Note</mark> _[UR]: will be added shortly._
 
+## EOEPCA+ - Earth Observation Exploitation Common Architecture
+
+Cloud-based platforms have proven to be an essential cornerstone for a paradigm shift in Earth Observation (EO), suitable to allow science and application initiatives to efficiently manage the huge volume of data availability in a “bring-the-user-to-the-data” paradigm. This paradigm has been demonstrated to be a critical enabler of innovation and acceleration, which in the European context needs to leverage a fragmented cloud and platform ecosystem, developed with a multitude of industrial and public investments at European and National level.
+
+EOEPCA+ is an ESA initiative whose objective is to define a Common Architecture for an exploitaiton platform that encourages interoperability and federation across the European EO cloud and platform ecosystem, by defining a set of common standards and interoperable Building Blocks (BBs) that can be shared across the different platforms and clouds. The aim is to support the EO Science, R&D, and applications community in their utilisation of the EO data and services, by allowing them to easily access and use the data and services across the different platforms and clouds, while also allowing them to share their data, code, and project results with the community on cloud-based environments.
+
+```{image} img/eoepca-plus.webp
+:alt: EOEPCA+
+:width: 90%
+:class: image-spaced
+```
+
+The EOEPCA+ architecture is supported by a Reference Implementation that helps to validate the architecture, and also provides a set of reusable capabilities for platform integrators - including resource catalogue and discovery, data access & visualisation, processing and workflow management, and identity and access management (IAM), and more. The architecture is designed to be modular and extensible, allowing for the integration of new capabilities and services as needed.
+
+A key aspect of the EOEPCA+ architecture is the definition of a common authentication and authorization framework that allows users to access and use the data and services across the different platforms and clouds, while also allowing them to share their data, code, and project results with the community on cloud-based environments. This is expressed through the IAM Building Block that encapsulates the approach and provides a reusable reference implementation.
+
+### EOEPCA+ Use Cases - Introduction
+
+As a common reference architecture, that is not tied to any concrete platform, EOEPCA+ offers here generic use cases for Federated Authentication and Authorization, that can be used as a reference for other platforms that want to implement similar capabilities. These use cases are defined in the context of the EOEPCA+ architecture, but they are not limited to it, and they can be adapted and implemented in other contexts as well.
+
+### EOEPCA+ Use Cases - Abstract Platform Federation
+
+This use case describes a generic scenario of platform federation, where a user can access and use data and services across multiple platforms, without needing to log in separately to each platform. The key aspects of this use case are:
+
+* User working across multiple platforms, with a dedicated user profile (account) in each platform, and no assumption of a shared IdP amongst the platforms - i.e. assume user maintains separate credentials for each platform.
+    > alternative path where there is a shared IdP
+
+* User authenticates to one platform (in the federation) and is granted access (within their permissions) to all federated platforms. This could be for accessing data, or for initiating processing etc.
+
+* The user ID is unambiguously mapped from one platform to the other
+    > maybe not needed if the IdP is shared
+
+* User is able to establish workflows within one platform that chains steps across multiple platforms, without needing to log in separately to each platform, and without needing to manage separate credentials for each platform
+
+* Trust relationships are established amongst the federated platforms
+
+* Tokens are either accepted cross-platform, or are otherwise exchanged/transformed for consumption at the 'other' platform - with possible scope reduction
 
 ## SSI Decentralised
 <img width="1440" height="317" alt="image" src="https://github.com/user-attachments/assets/258fc2a4-4732-4a58-bb26-8918c423b8c7" />
