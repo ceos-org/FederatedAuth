@@ -81,7 +81,7 @@ end
 Figure 1 - Verification of VC and VP (OGC 24-033)
 
 
-The OGC Testbed-21 included a similar called "Data Quality for Integrity, Provenance and Trust" (DQ4IPT).
+The OGC Testbed-21 included a similar task called "Data Quality for Integrity, Provenance and Trust" (DQ4IPT).
 The objectives of the task were as follows:
 
 - Explore the integration of data quality considerations into IPT frameworks in such a way that users of Earth Observation data can have confidence in the data they use for analysis.
