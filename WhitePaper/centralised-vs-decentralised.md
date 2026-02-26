@@ -80,7 +80,25 @@ end
 ```
 Figure 1 - Verification of VC and VP (OGC 24-033)
 
-For examples of the various artifacts, we refer to the Engineering Report:
+
+The OGC Testbed-21 included a similar called "Data Quality for Integrity, Provenance and Trust" (DQ4IPT).
+The objectives of the task were as follows:
+
+- Explore the integration of data quality considerations into IPT frameworks in such a way that users of Earth Observation data can have confidence in the data they use for analysis.
+- Develop a reference architecture that integrates data quality considerations into IPT frameworks
+- Demonstrate how the reference architecture can improve confidence in Earth Observation data
+ 
+The activity aimed to provide a standards-based approach through which data producers such as space agencies can document and communicate the quality of their data products in a way that is both human and machine readable.
+
+The Engineering Report OGC 26-005 {cite}`OGC_26-005` presents two IPT server implementations that were prototyped during the Testbed-21 activities:
+
+The first implementation (D101) provided an OGC API-Process implementation with a, process that stored metadata of generated products in a STAC Catalog on a Hyperledger Fabric blockchain. The proces also stored the actual data it generates on an IPFS (Interplanetary File System) giving each resource a unique CID content identifier based on a cryptographic hash. The process acts as a Verifier of Verifiable Credentials (VC) provided with the input data.  The Verifiable Credantials related to "subjects" from multiple organisations (so-called "issuers") identified by their W3C DID which resolves to a DID document as in Testbed-20.
+
+The second implementation (D102) hosts an API-Records/STAC-API Catalogue with STAC and ISO19115-4 metadata including quality and provenance information.  The IPT framework underneath is an evolution of the implementation in Testbed-20.  IN the STAC Catalogue, each collection, granule and organisation is identified by a W3C DID identifier.   All granules havd a DID included in the metadata via the STAC Additional Identifiers extension.
+
+The simulated environment consists of various organisations (space agencies) that self-identify by having created a resovable DID and associated DID document.  Verifiable Credentials (VC) for granules are issued by the corresponding organisations, which can be verified downstream by validating the VC using the public key information published by the corresponding organisations in their DID documents.
+
+For examples of the various artifacts, we refer to both Engineering Reports:
 
 - [W3C DID Document](https://docs.ogc.org/per/24-033.html#_w3c_decentralized_identifier_document_example)
 - [W3C Verifiable Credential](https://docs.ogc.org/per/24-033.html#_w3c_verifiable_credentials_example)
